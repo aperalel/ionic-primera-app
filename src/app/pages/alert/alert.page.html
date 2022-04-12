@@ -8,5 +8,17 @@
 </ion-header> -->
 <app-header titulo="alert"></app-header>
 <ion-content>
+  <ion-button (click)="presentAlert()" expand="block">
+    Click me
+  </ion-button>
+  
+  <!--Botón 2-->
+  <ion-button (click)="presentAlertMultipleButtons()" expand="block">
+    Click me
+  </ion-button>
 
+   <!--Botón 3-->
+   <ion-button (click)="presentAlertPrompt()" expand="block">
+    Click me
+  </ion-button>
 </ion-content>
